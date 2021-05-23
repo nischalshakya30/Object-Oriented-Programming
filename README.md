@@ -1,6 +1,6 @@
-# Inheritance 
+# Inheritance (IS-A Relationship)
 
-Inheritance is a mechanism in which one object acquires all the properteis and behaviours of a parent object. The idea behind is to create a new **classes** build upon the 
+Inheritance is a mechanism in which one object acquires all the properties and behaviours of a parent object. The idea behind is to create a new **classes** build upon the 
 existing classes so that we can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current class also. 
 
 ## Why Inheritance 
