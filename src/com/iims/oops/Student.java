@@ -5,11 +5,13 @@
  */
 package com.iims.oops;
 
+import com.iims.oops.accessmodifier.AccessModifierDemoTwo;
+
 /**
  *
  * @author msii
  */
-public class Student {
+public class Student extends AccessModifierDemoTwo{
 
     int id;
 
@@ -40,7 +42,7 @@ public class Student {
         studentTwo.name = "Shyam";
         studentTwo.rollNumber = 5678L;
         studentTwo.display();
-
+        
     }
 
 }
