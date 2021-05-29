@@ -21,17 +21,12 @@ class Employee {
         this.name = name;
     }
 
-    public void display() {
-        this.displayDeptID();
-        this.displayName();
+    public int getDeptId() {
+        return deptID;
     }
 
-    private void displayDeptID() {
-        System.out.println("Dept ID " + deptID);
-    }
-
-    private void displayName() {
-        System.out.println("Name " + name);
+    public String getName() {
+        return name;
     }
 
 }
@@ -43,6 +38,7 @@ public class ThisKeywordDemo {
         employee.setDeptID(1);
         employee.setName("Chris");
 
-        employee.display();
+        System.out.println(employee.getDeptId());
+        System.out.println(employee.getName());
     }
 }
